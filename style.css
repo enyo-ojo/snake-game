@@ -1,0 +1,57 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 237, 237);
+}
+
+h1 {
+    font-size: 40px;
+    margin-left: 250px;
+    color: rgb(40, 64, 71);
+}
+
+h2 {
+    font-size: 30px;
+    margin-left: 250px;
+    color: rgb(88, 47, 47);
+}
+
+button {
+    border: none;
+    padding: 10px 15px;
+    margin-left: 750px;
+    font-weight: bold;
+    background-color: rgb(173, 183, 230);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.grid {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    border: 3px solid rgb(6, 44, 25);
+}
+
+.square {
+    width: 48px;
+    height: 48px;
+    border: 1px solid rgba(128, 128, 128, 0.055);
+}
+
+.snake {
+    background-color: rgb(128, 187, 94);
+    border-radius: 50%;
+}
+
+.apple {
+    background-color: rgb(209, 73, 19);
+    border-radius: 40%;
+}
+
+.snakehead {
+    background-color: black;
+}
